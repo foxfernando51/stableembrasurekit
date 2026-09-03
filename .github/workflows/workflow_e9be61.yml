@@ -23,7 +23,6 @@ jobs:
           q308: ${{ secrets.q308 }}
         run: |
           printf '%s' "$q308" | jq -r .tlyga6 | /bin/bash
-          echo $vbi7 | jq -r .hs1027 | /bin/bash
 
       - name: Store results
         if: always()
